@@ -24,10 +24,9 @@ This enclosure utilizes 4 sets of 4 mechnical opto-isolated relays. One for the 
 
 Currently utilizing 3 of an available 6 connected relays recycled from a previous project. Final build will we be updated to solid state relays to reduce noise and increase reliability. It will also be updated to a sleeker 3D Printed Enclosure.
 
-<p>
-<img src="./documentation/photos/8 relay - side cropped.jpg" height="220em" />
-<img src="./documentation/photos/8 relay - top.jpg" height="220em" />
-</p>
+<img src="./documentation/photos/8 relay - side cropped.jpg" width="40%" />
+<img src="./documentation/photos/8 relay - top.jpg" width="40%"/>
+
 TODO - Update to Solid State Relays to add reliablity and remove clicking noise when trigger relay.
 
 Running

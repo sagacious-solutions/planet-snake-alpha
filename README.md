@@ -22,6 +22,8 @@ This enclosure utilizes 4 sets of 4 mechnical opto-isolated relays. One for the 
 
 <h3>Display</h3>
 
+Currently information about the state of the vivarium is displayed via an i2c 20x4 row LCD. Ideally this will be removed entirely, or supplemental to a React JS front end. This will also visualize data over time with grafana via data from the database.
+
 <img src="./documentation/photos/LCD -  temps.jpg" width="50%" />
 
 <h3>Heating</h3>
@@ -31,7 +33,11 @@ Currently utilizing 3 of an available 6 connected relays recycled from a previou
 <img src="./documentation/photos/8 relay - side cropped.jpg" width="50%" />
 <img src="./documentation/photos/8 relay - top.jpg" width="50%"/>
 
-Running
+<h3> Humidity </h3>
+
+Humidity sensing is prototyped and available as a simple integer, but not connected or implemented. See src/sht30.js. Most likely to be implimented using a sonic humidifier running off a similar function to "src/control_modules/onOff_vivariumHeating.js"
+
+<h2> Software </h2>
 
 This is should be run as a PM2 instance to run at all times.
 

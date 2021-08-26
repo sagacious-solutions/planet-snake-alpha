@@ -16,6 +16,8 @@ This project runs on a Raspberry Pi Zero W. Its effective for the project, but h
 
 <img src="./documentation/photos/Pi Zero W Cropped.jpg" width="40%" />
 
+<img src="./documentation/photos/pinout.png" width="40%" />
+
 This enclosure utilizes 4 sets of 4 mechnical opto-isolated relays. One for the lights and one for heating.
 
 <h3>Heating</h3>

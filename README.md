@@ -12,7 +12,9 @@ Sunny is our intrepid but stealthy snake. She goes up, she goes down, she goes a
 
 <h2>Hardware</h2>
 
-This enclosure runs on a Raspberry Pi Zero W.
+This project runs on a Raspberry Pi Zero W. Its effective for the project, but hasn't had to run any databasing, data serving or UI elements yet. Board choice will be reevaluated as project needs change.
+
+<img src="./documentation/photos/Pi Zero W Cropped.jpg" width="40%" />
 
 This enclosure utilizes 4 sets of 4 mechnical opto-isolated relays. One for the lights and one for heating.
 

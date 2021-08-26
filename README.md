@@ -24,14 +24,16 @@ This enclosure utilizes 4 sets of 4 mechnical opto-isolated relays. One for the 
 
 Currently information about the state of the vivarium is displayed via an i2c 20x4 row LCD. Ideally this will be removed entirely, or supplemental to a React JS front end. This will also visualize data over time with grafana via data from the database.
 
-<img src="./documentation/photos/LCD -  temps.jpg" width="50%" />
+<img src="./documentation/photos/LCD -  temps.jpg" width="50%" vertical-align:middle />
 
 <h3>Heating</h3>
 
 Currently utilizing 3 of an available 6 connected relays recycled from a previous project. Final build will we be updated to solid state relays to reduce noise and increase reliability. It will also be updated to a sleeker 3D Printed Enclosure.
 
 <img src="./documentation/photos/8 relay - side cropped.jpg" width="50%" />
-<img src="./documentation/photos/8 relay - top.jpg" width="50%"/>
+<img src="./documentation/photos/8 relay - top.jpg"   margin-left= "auto",
+  margin-right= "auto",
+  width= "50%"/>
 
 <h3> Humidity </h3>
 
